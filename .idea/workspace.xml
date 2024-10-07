@@ -5,28 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab92d731-5861-4235-b221-e1217c28b054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/abonnements.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/admin.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/admin_add_films.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/admin_films.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/admin_users.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/confirm.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/forgot.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/register.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth/reset.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/category.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/detail.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/detail_serie.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/discover.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lists.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/upload.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/CommentStatusEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/MediaTypeEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enum/UserAccountStatusEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/parts/left-sidebar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/parts/right-sidebar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/parts/subscribe/plan-card.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TestController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/abonnements.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/admin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/confirm.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/confirm.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/forgot.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/forgot.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/reset.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/detail_serie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail_serie.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/discover.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/discover.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lists.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/lists.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/upload.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/upload.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +203,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -208,8 +212,10 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/auth" />
+      <recent name="$PROJECT_DIR$/templates/others" />
       <recent name="$PROJECT_DIR$/templates/admin" />
+      <recent name="$PROJECT_DIR$/templates/movie" />
+      <recent name="$PROJECT_DIR$/templates/auth" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
@@ -236,7 +242,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727855552048</updated>
       <workItem from="1727855553304" duration="892000" />
-      <workItem from="1727858526751" duration="1031000" />
+      <workItem from="1727858526751" duration="7313000" />
     </task>
     <servers />
   </component>
