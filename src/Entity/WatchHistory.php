@@ -20,6 +20,10 @@ class WatchHistory
     #[ORM\Column]
     private ?int $views = null;
 
+    #[ORM\ManyToOne(inversedBy: 'watchHistories')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?User $watcher = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -45,6 +49,18 @@ class WatchHistory
     public function setViews(int $views): static
     {
         $this->views = $views;
+
+        return $this;
+    }
+
+    public function getWatcher(): ?User
+    {
+        return $this->watcher;
+    }
+
+    public function setWatcher(?User $watcher): static
+    {
+        $this->watcher = $watcher;
 
         return $this;
     }

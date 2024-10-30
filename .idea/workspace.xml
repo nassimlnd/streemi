@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab92d731-5861-4235-b221-e1217c28b054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Enum/CommentStatusEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/MediaTypeEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/UserAccountStatusEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parts/left-sidebar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parts/right-sidebar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parts/subscribe/plan-card.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TestController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/abonnements.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/admin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/confirm.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/confirm.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/forgot.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/forgot.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/reset.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/reset.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/category.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/detail_serie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail_serie.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/discover.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/discover.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lists.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/lists.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/upload.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/WatchHistory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/WatchHistory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,19 +174,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/nassimlounadi/Lab/streemi/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nassimlounadi/Lab/streemi/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
@@ -228,8 +208,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
-        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23726.107" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23726.107" />
       </set>
     </attachedChunks>
   </component>
@@ -243,6 +223,10 @@
       <updated>1727855552048</updated>
       <workItem from="1727855553304" duration="892000" />
       <workItem from="1727858526751" duration="7313000" />
+      <workItem from="1730128069715" duration="26000" />
+      <workItem from="1730128220523" duration="7000" />
+      <workItem from="1730278281321" duration="124000" />
+      <workItem from="1730278411232" duration="3927000" />
     </task>
     <servers />
   </component>
