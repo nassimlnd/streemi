@@ -1,9 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Enum;
 
 enum MediaTypeEnum: string
 {
     case MOVIE = 'movie';
-    case SERIES = 'series';
+    case TV_SHOW = 'tv_show';
 }
