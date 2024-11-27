@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab92d731-5861-4235-b221-e1217c28b054" name="Changes" comment="" />
+    <list default="true" id="ab92d731-5861-4235-b221-e1217c28b054" name="Changes" comment="workflows: disable ci">
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/admin.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/admin_add_films.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin_add_films.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/admin_films.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin_films.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/admin_users.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/admin_users.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/detail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/detail_serie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/detail_serie.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/discover.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/discover.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movie/lists.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movie/lists.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/other/abonnements.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/other/abonnements.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/other/upload.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/other/upload.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parts/left-menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parts/left-menu.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +177,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
       <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
       <path value="$PROJECT_DIR$/vendor/symfonycasts/tailwind-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
+      <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -186,11 +211,11 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller/User" />
       <recent name="$PROJECT_DIR$/templates/others" />
       <recent name="$PROJECT_DIR$/templates/admin" />
       <recent name="$PROJECT_DIR$/templates/movie" />
       <recent name="$PROJECT_DIR$/templates/auth" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -219,9 +244,24 @@
       <workItem from="1727858526751" duration="7313000" />
       <workItem from="1732691811519" duration="109000" />
     </task>
+    <task id="LOCAL-00001" summary="workflows: disable ci">
+      <option name="closed" value="true" />
+      <created>1732692768950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732692768950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: global refactoring" />
+    <MESSAGE value="chore: update env" />
+    <MESSAGE value="workflows: disable ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="workflows: disable ci" />
   </component>
 </project>
